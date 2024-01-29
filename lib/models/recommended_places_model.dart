@@ -1,46 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_construc
-// class RecommendedPlaceModel {
-//   final String image;
-//   final double rating;
-//   final String location;
-//   RecommendedPlaceModel({
-//     required this.image,
-//     required this.rating,
-//     required this.location,
-//   });
-// }
 
-// List<RecommendedPlaceModel> recommendedPlaces = [
-//   RecommendedPlaceModel(
-//     image: "assets/places/place5.jpg",
-//     rating: 4.4,
-//     location: "Salarjum museum",
-//   ),
-//     RecommendedPlaceModel(
-//     image: "assets/places/place4.jpg",
-//     rating: 4.4,
-//     location: "Golconda",
-//   ),
-//   RecommendedPlaceModel(
-//     image: "assets/places/place3.jpg",
-//     rating: 4.4,
-//     location: "Durgam Cheruvu, Cable Bridge",
-//   ),
-//   RecommendedPlaceModel(
-//     image: "assets/places/place2.jpg",
-//     rating: 4.4,
-//     location: "InOribit Mall",
-//   ),
-//   RecommendedPlaceModel(
-//     image: "assets/places/place1.jpg",
-//     rating: 4.4,
-//     location: "CharMinar",
-//   ),
-// ];
-
-
-
-// String selectedLocation = 'hyderabad'; // Default location
 
   Map<String, List<Map<String, String>>> locationImages = {
     'hyderabad': [
